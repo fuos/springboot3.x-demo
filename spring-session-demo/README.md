@@ -1,3 +1,4 @@
+# spring session 核心原理和组件
 ![ss](https://github.com/fuos/springboot3.x-demo/assets/34535312/df742b4f-470a-43f4-bbc6-701a16c8f4ae)
 
 在左图中，每个 Spring 应用程序都将其会话存储在一个只有他们自己可以访问它们的地方，通常是在服务器的内存中，但这在分布式环境中可能是一个问题。想象一下，Spring App #2 收到带有会话 #3 的请求，应用程序将无法读取会话数据，因为它存储在 Spring App #1 的内存中。为了解决这个问题，我们需要实现某种共享会话存储，如右图所示。
