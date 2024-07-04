@@ -1,6 +1,5 @@
 # springboot+redisson实现延时队列
-
-![rdq](https://github.com/fuos/spring-demo/assets/34535312/984c8b93-12a2-4dcc-938d-4519fd96605b)
+![RDelayQueue](https://github.com/fuos/springboot3.x-demo/assets/34535312/f1f367fb-a609-40db-8aff-984576ede775)
 
 ### 启动Spring Boot应用，然后可以通过以下URL测试延时队列功能：
 
